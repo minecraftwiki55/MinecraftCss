@@ -1,0 +1,1436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft CSS Showcase</title>
+</head>
+<body>
+    <nav class="mc-navbar">
+        <a href="#" class="mc-navbar-brand">Minecraft Style</a>
+        <ul class="mc-navbar-items">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#buttons">Buttons</a></li>
+            <li><a href="#inputs">Inputs</a></li>
+            <li><a href="#tables">Tables</a></li>
+            <li class="mc-dropdown">
+                <button class="mc-dropdown-btn">More</button>
+                <div class="mc-dropdown-content">
+                    <a href="#cards">Cards</a>
+                    <a href="#alerts">Alerts</a>
+                    <a href="#tabs">Tabs</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <section id="intro">
+            <h1>Minecraft CSS Style Showcase</h1>
+            <p>Welcome to the showcase of CSS elements designed in Minecraft style. Below you'll find various elements and components that you can use in your projects.</p>
+            
+            <div class="mc-alert mc-alert-info">
+                <span>This page showcases all CSS elements available in Minecraft style.</span>
+                <span class="mc-alert-close">&times;</span>
+            </div>
+        </section>
+
+        <section id="typography">
+            <h2>Typography</h2>
+            <h1>Heading 1</h1>
+            <h2>Heading 2</h2>
+            <h3>Heading 3</h3>
+            <h4>Heading 4</h4>
+            <h5>Heading 5</h5>
+            <h6>Heading 6</h6>
+            
+            <p>This is a standard paragraph with <a href="#">a link</a> inside it. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris.</p>
+            
+            <ul>
+                <li>Unordered list item 1</li>
+                <li>Unordered list item 2</li>
+                <li>Unordered list item 3</li>
+            </ul>
+            
+            <ol>
+                <li>Ordered list item 1</li>
+                <li>Ordered list item 2</li>
+                <li>Ordered list item 3</li>
+            </ol>
+        </section>
+
+        <section id="buttons">
+            <h2>Buttons</h2>
+            <div class="pixel-border">
+                <button class="mc-button">Default Button</button>
+                <button class="mc-button secondary">Secondary Button</button>
+                <button class="mc-button danger">Danger Button</button>
+            </div>
+        </section>
+
+        <section id="inputs">
+            <h2>Form Elements</h2>
+            
+            <div class="mc-input-group">
+                <label for="text-input">Text Input</label>
+                <input type="text" id="text-input" class="mc-input" placeholder="Enter text here...">
+            </div>
+            
+            <div class="mc-select-wrapper">
+                <select class="mc-select">
+                    <option value="">Select an option</option>
+                    <option value="1">Option 1</option>
+                    <option value="2">Option 2</option>
+                    <option value="3">Option 3</option>
+                </select>
+            </div>
+            
+            <div>
+                <input type="checkbox" id="checkbox1" class="mc-checkbox">
+                <label for="checkbox1">Checkbox Option 1</label>
+            </div>
+            
+            <div>
+                <input type="checkbox" id="checkbox2" class="mc-checkbox">
+                <label for="checkbox2">Checkbox Option 2</label>
+            </div>
+            
+            <div>
+                <input type="radio" id="radio1" name="radio-group" class="mc-radio">
+                <label for="radio1">Radio Option 1</label>
+            </div>
+            
+            <div>
+                <input type="radio" id="radio2" name="radio-group" class="mc-radio">
+                <label for="radio2">Radio Option 2</label>
+            </div>
+        </section>
+
+        <section id="tables">
+            <h2>Tables</h2>
+            <table class="mc-table">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Username</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Steve</td>
+                        <td>Minecraft</td>
+                        <td>@steve</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Alex</td>
+                        <td>Minecraft</td>
+                        <td>@alex</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Creeper</td>
+                        <td>Explosive</td>
+                        <td>@creeper</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="cards">
+            <h2>Cards</h2>
+            <div class="mc-card">
+                <div class="mc-card-header">Card Header</div>
+                <p>This is some content inside a card. You can put any kind of content here.</p>
+                <div class="mc-card-footer">Card Footer</div>
+            </div>
+            
+            <div class="mc-card">
+                <div class="mc-card-header">Another Card</div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris.</p>
+                <button class="mc-button">Click Me</button>
+                <div class="mc-card-footer">Last updated 3 mins ago</div>
+            </div>
+        </section>
+
+        <section id="alerts">
+            <h2>Alerts</h2>
+            <div class="mc-alert mc-alert-success">
+                <span>This is a success alert!</span>
+                <span class="mc-alert-close">&times;</span>
+            </div>
+            
+            <div class="mc-alert mc-alert-info">
+                <span>This is an info alert!</span>
+                <span class="mc-alert-close">&times;</span>
+            </div>
+            
+            <div class="mc-alert mc-alert-warning">
+                <span>This is a warning alert!</span>
+                <span class="mc-alert-close">&times;</span>
+            </div>
+            
+            <div class="mc-alert mc-alert-danger">
+                <span>This is a danger alert!</span>
+                <span class="mc-alert-close">&times;</span>
+            </div>
+        </section>
+
+        <section id="progress">
+            <h2>Progress Bars</h2>
+            <div class="mc-progress">
+                <div class="mc-progress-bar" style="width: 25%"></div>
+                <div class="mc-progress-text">25%</div>
+            </div>
+            
+            <div class="mc-progress">
+                <div class="mc-progress-bar" style="width: 50%"></div>
+                <div class="mc-progress-text">50%</div>
+            </div>
+            
+            <div class="mc-progress">
+                <div class="mc-progress-bar" style="width: 75%"></div>
+                <div class="mc-progress-text">75%</div>
+            </div>
+        </section>
+
+        <section id="search">
+            <h2>Search</h2>
+            <form class="mc-search-form">
+                <input type="text" class="mc-search-input" placeholder="Search...">
+                <button type="submit" class="mc-search-button">Search</button>
+            </form>
+        </section>
+
+        <section id="tabs">
+            <h2>Tabs</h2>
+            <div class="mc-tabs">
+                <ul class="mc-tab-links">
+                    <li class="mc-tab-link active">Tab 1</li>
+                    <li class="mc-tab-link">Tab 2</li>
+                    <li class="mc-tab-link">Tab 3</li>
+                </ul>
+                <div class="mc-tab-content">
+                    <div class="mc-tab-pane active">
+                        <h3>Tab 1 Content</h3>
+                        <p>This is the content for Tab 1.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <div class="mc-gallery">
+                <div class="mc-gallery-item">
+                    <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/1/1f/Plains_Grass_Block.png" alt="Minecraft Grass Block">
+                    <div class="mc-gallery-caption">Grass Block</div>
+                </div>
+                <div class="mc-gallery-item">
+                    <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/f/fe/Diamond_Ore_JE5_BE5.png" alt="Minecraft Diamond Ore">
+                    <div class="mc-gallery-caption">Diamond Ore</div>
+                </div>
+                <div class="mc-gallery-item">
+                    <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/8/8d/Oak_Planks_JE6_BE3.png" alt="Minecraft Oak Planks">
+                    <div class="mc-gallery-caption">Oak Planks</div>
+                </div>
+                <div class="mc-gallery-item">
+                    <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/c/c1/Cobblestone_JE5_BE3.png" alt="Minecraft Cobblestone">
+                    <div class="mc-gallery-caption">Cobblestone</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="slider">
+            <h2>Slider</h2>
+            <div class="mc-slider">
+                <div class="mc-slides">
+                    <div class="mc-slide">
+                        <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/6/64/Plains_Sunset_BE.png" alt="Minecraft Landscape">
+                        <div class="mc-slide-caption">Minecraft Landscape</div>
+                    </div>
+                </div>
+                <div class="mc-slider-nav">
+                    <div class="mc-slider-prev">&lt;</div>
+                    <div class="mc-slider-next">&gt;</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="pagination">
+            <h2>Pagination</h2>
+            <div class="mc-pagination">
+                <div class="mc-page-item">
+                    <a href="#" class="mc-page-link">&laquo;</a>
+                </div>
+                <div class="mc-page-item">
+                    <a href="#" class="mc-page-link active">1</a>
+                </div>
+                <div class="mc-page-item">
+                    <a href="#" class="mc-page-link">2</a>
+                </div>
+                <div class="mc-page-item">
+                    <a href="#" class="mc-page-link">3</a>
+                </div>
+                <div class="mc-page-item">
+                    <a href="#" class="mc-page-link">&raquo;</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="tooltips">
+            <h2>Tooltips</h2>
+            <div class="mc-tooltip">
+                Hover over me
+                <span class="mc-tooltip-text">This is a tooltip!</span>
+            </div>
+        </section>
+
+        <section id="spinner">
+            <h2>Spinner</h2>
+            <div class="mc-spinner"></div>
+        </section>
+
+        <section id="modal-demo">
+            <h2>Modal</h2>
+            <button class="mc-button" onclick="document.getElementById('demo-modal').classList.add('active')">Open Modal</button>
+            
+            <div id="demo-modal" class="mc-modal">
+                <div class="mc-modal-content">
+                    <div class="mc-modal-header">
+                        <span>Modal Title</span>
+                        <span class="mc-modal-close" onclick="document.getElementById('demo-modal').classList.remove('active')">&times;</span>
+                    </div>
+                    <div class="mc-modal-body">
+                        <p>This is the modal content. You can put anything here!</p>
+                    </div>
+                    <div class="mc-modal-footer">
+                        <button class="mc-button danger" onclick="document.getElementById('demo-modal').classList.remove('active')">Close</button>
+                        <button class="mc-button">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="toaster-demo">
+            <h2>Toaster</h2>
+            <button class="mc-button">Show Toast</button>
+            
+            <div class="mc-toaster">
+                <div class="mc-toast success">
+                    <span>Success message!</span>
+                    <span class="mc-toast-close">&times;</span>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="mc-footer">
+        <div class="mc-footer-content">
+            <div class="mc-footer-links">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Contact</a>
+            </div>
+            <div class="mc-footer-copyright">
+                &copy; 2025 Minecraft CSS Showcase. All rights reserved.
+            </div>
+        </div>
+    </footer>
+    
+    <style>
+      
+      @import url('https://fonts.cdnfonts.com/css/minecraft-4');
+
+/* ===== تصميم عام ===== */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    font-family: 'Minecraft', sans-serif;
+    overflow-x: hidden;
+    line-height: 1.6;
+}
+
+/* ===== حاوية عامة ===== */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* ===== العناوين ===== */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Minecraft', sans-serif;
+    color: #55ff55;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 0px #005500;
+}
+
+h1 { font-size: 36px; }
+h2 { font-size: 30px; }
+h3 { font-size: 24px; }
+h4 { font-size: 20px; }
+h5 { font-size: 18px; }
+h6 { font-size: 16px; }
+
+/* ===== الفقرات والنصوص ===== */
+p {
+    margin-bottom: 15px;
+    font-family: 'Minecraft', sans-serif;
+    line-height: 1.6;
+}
+
+a {
+    color: #55ff55;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    color: #7dff7d;
+    text-decoration: underline;
+}
+
+/* ===== القوائم ===== */
+ul, ol {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* ===== حدود البيكسل ===== */
+.pixel-border {
+    --border-size: 4px;
+    --border-color: #4f4f4f;
+    position: relative;
+    border: var(--border-size) solid var(--border-color);
+    margin: 10px;
+}
+
+.pixel-border::before {
+    content: '';
+    position: absolute;
+    top: calc(-1 * var(--border-size));
+    left: calc(-1 * var(--border-size));
+    height: calc(100% + var(--border-size) * 2);
+    width: calc(100% + var(--border-size) * 2);
+    background: transparent;
+    border: var(--border-size) solid #292929;
+    z-index: -1;
+}
+
+/* ===== الأزرار ===== */
+.mc-button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #55ff55;
+    color: #000000;
+    border: none;
+    font-family: 'Minecraft', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    margin: 5px;
+}
+
+.mc-button:hover {
+    background-color: #7dff7d;
+    transform: scale(1.05);
+}
+
+.mc-button:active {
+    transform: scale(0.95);
+}
+
+.mc-button.secondary {
+    background-color: #5555ff;
+    color: #ffffff;
+}
+
+.mc-button.secondary:hover {
+    background-color: #7d7dff;
+}
+
+.mc-button.danger {
+    background-color: #ff5555;
+    color: #ffffff;
+}
+
+.mc-button.danger:hover {
+    background-color: #ff7d7d;
+}
+
+/* ===== حقول الإدخال ===== */
+.mc-input {
+    width: 100%;
+    padding: 12px 15px;
+    background-color: #333333;
+    border: 3px solid #555555;
+    color: #ffffff;
+    font-family: 'Minecraft', sans-serif;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.mc-input:focus {
+    outline: none;
+    border-color: #55ff55;
+    box-shadow: 0 0 15px rgba(85, 255, 85, 0.3);
+}
+
+.mc-input::placeholder {
+    color: #777777;
+}
+
+/* ===== مجموعة الإدخال ===== */
+.mc-input-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.mc-input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #aaaaaa;
+    font-size: 14px;
+}
+
+/* ===== القائمة المنسدلة ===== */
+.mc-select {
+    width: 100%;
+    padding: 12px 15px;
+    background-color: #333333;
+    border: 3px solid #555555;
+    color: #ffffff;
+    font-family: 'Minecraft', sans-serif;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    appearance: none;
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.mc-select:focus {
+    outline: none;
+    border-color: #55ff55;
+    box-shadow: 0 0 15px rgba(85, 255, 85, 0.3);
+}
+
+.mc-select-wrapper {
+    position: relative;
+}
+
+.mc-select-wrapper::after {
+    content: '▼';
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    font-size: 12px;
+    color: #55ff55;
+    pointer-events: none;
+}
+
+/* ===== خانات الاختيار ===== */
+.mc-checkbox {
+    display: none;
+}
+
+.mc-checkbox + label {
+    position: relative;
+    padding-left: 35px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.mc-checkbox + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    background-color: #333333;
+    border: 2px solid #555555;
+}
+
+.mc-checkbox:checked + label:before {
+    background-color: #55ff55;
+    border-color: #55ff55;
+}
+
+.mc-checkbox:checked + label:after {
+    content: '✓';
+    position: absolute;
+    left: 5px;
+    top: -2px;
+    color: #000000;
+    font-size: 16px;
+}
+
+/* ===== أزرار الراديو ===== */
+.mc-radio {
+    display: none;
+}
+
+.mc-radio + label {
+    position: relative;
+    padding-left: 35px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.mc-radio + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    background-color: #333333;
+    border: 2px solid #555555;
+    border-radius: 50%;
+}
+
+.mc-radio:checked + label:before {
+    background-color: #333333;
+    border-color: #55ff55;
+}
+
+.mc-radio:checked + label:after {
+    content: '';
+    position: absolute;
+    left: 6px;
+    top: 6px;
+    width: 12px;
+    height: 12px;
+    background-color: #55ff55;
+    border-radius: 50%;
+}
+
+/* ===== الجداول ===== */
+.mc-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-bottom: 25px;
+}
+
+.mc-table th, 
+.mc-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 2px solid #555555;
+}
+
+.mc-table th {
+    background-color: #2a2a2a;
+    color: #55ff55;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.mc-table tr {
+    background-color: #333333;
+    transition: all 0.3s ease;
+}
+
+.mc-table tr:hover {
+    background-color: #3a3a3a;
+}
+
+.mc-table tr:nth-child(even) {
+    background-color: #2f2f2f;
+}
+
+/* ===== البطاقات ===== */
+.mc-card {
+    background-color: #2a2a2a;
+    border: 4px solid #555555;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.mc-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    border-color: #55ff55;
+}
+
+.mc-card-header {
+    margin: -20px -20px 15px -20px;
+    padding: 15px 20px;
+    background-color: #333333;
+    color: #55ff55;
+    font-size: 18px;
+}
+
+.mc-card-footer {
+    margin: 15px -20px -20px -20px;
+    padding: 15px 20px;
+    background-color: #333333;
+    font-size: 14px;
+    color: #aaaaaa;
+}
+
+/* ===== عناصر التنقل ===== */
+.mc-navbar {
+    background-color: #2a2a2a;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 100;
+    border-bottom: 4px solid #555555;
+}
+
+.mc-navbar-brand {
+    font-size: 24px;
+    color: #55ff55;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.mc-navbar-items {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.mc-navbar-items li {
+    margin: 0 10px;
+}
+
+.mc-navbar-items a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px 12px;
+    transition: all 0.3s ease;
+}
+
+.mc-navbar-items a:hover {
+    color: #55ff55;
+    text-decoration: none;
+}
+
+.mc-navbar-items a.active {
+    color: #55ff55;
+    border-bottom: 2px solid #55ff55;
+}
+
+/* ===== القائمة المنسدلة في التنقل ===== */
+.mc-dropdown {
+    position: relative;
+}
+
+.mc-dropdown-btn {
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-family: 'Minecraft', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+}
+
+.mc-dropdown-btn:after {
+    content: '▼';
+    margin-left: 5px;
+    font-size: 10px;
+}
+
+.mc-dropdown-btn:hover {
+    color: #55ff55;
+}
+
+.mc-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #2a2a2a;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+    border: 3px solid #555555;
+}
+
+.mc-dropdown-content a {
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.mc-dropdown-content a:hover {
+    background-color: #333333;
+    color: #55ff55;
+}
+
+.mc-dropdown:hover .mc-dropdown-content {
+    display: block;
+}
+
+/* ===== التبويبات ===== */
+.mc-tabs {
+    margin-bottom: 20px;
+}
+
+.mc-tab-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-bottom: 3px solid #555555;
+}
+
+.mc-tab-link {
+    padding: 10px 15px;
+    background-color: #2a2a2a;
+    color: #aaaaaa;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-top: 3px solid transparent;
+    border-right: 3px solid #555555;
+}
+
+.mc-tab-link:first-child {
+    border-left: 3px solid #555555;
+}
+
+.mc-tab-link:hover {
+    color: #ffffff;
+}
+
+.mc-tab-link.active {
+    background-color: #333333;
+    color: #55ff55;
+    border-top-color: #55ff55;
+}
+
+.mc-tab-content {
+    padding: 20px;
+    background-color: #333333;
+    border: 3px solid #555555;
+    border-top: none;
+}
+
+.mc-tab-pane {
+    display: none;
+}
+
+.mc-tab-pane.active {
+    display: block;
+}
+
+/* ===== الرسائل التنبيهية ===== */
+.mc-alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 3px solid transparent;
+    position: relative;
+    animation: fadeIn 0.5s;
+}
+
+.mc-alert-success {
+    background-color: rgba(85, 255, 85, 0.1);
+    border-color: #55ff55;
+    color: #55ff55;
+}
+
+.mc-alert-info {
+    background-color: rgba(85, 85, 255, 0.1);
+    border-color: #5555ff;
+    color: #aaaaff;
+}
+
+.mc-alert-warning {
+    background-color: rgba(255, 255, 85, 0.1);
+    border-color: #ffff55;
+    color: #ffff55;
+}
+
+.mc-alert-danger {
+    background-color: rgba(255, 85, 85, 0.1);
+    border-color: #ff5555;
+    color: #ff5555;
+}
+
+.mc-alert-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    color: inherit;
+}
+
+/* ===== شريط التقدم ===== */
+.mc-progress {
+    height: 20px;
+    background-color: #333333;
+    border: 3px solid #555555;
+    margin-bottom: 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+.mc-progress-bar {
+    height: 100%;
+    background-color: #55ff55;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: width 0.5s ease;
+}
+
+.mc-progress-text {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 12px;
+    z-index: 1;
+}
+
+/* ===== نموذج البحث ===== */
+.mc-search-form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.mc-search-input {
+    flex: 1;
+    padding: 12px 15px;
+    background-color: #333333;
+    border: 3px solid #555555;
+    color: #ffffff;
+    font-family: 'Minecraft', sans-serif;
+    font-size: 16px;
+}
+
+.mc-search-button {
+    padding: 12px 20px;
+    background-color: #55ff55;
+    color: #000000;
+    border: none;
+    font-family: 'Minecraft', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.mc-search-button:hover {
+    background-color: #7dff7d;
+}
+
+/* ===== معرض الصور ===== */
+.mc-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.mc-gallery-item {
+    position: relative;
+    overflow: hidden;
+    border: 3px solid #555555;
+    transition: all 0.3s ease;
+}
+
+.mc-gallery-item:hover {
+    transform: scale(1.03);
+    border-color: #55ff55;
+    z-index: 2;
+}
+
+.mc-gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.mc-gallery-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #ffffff;
+    transform: translateY(100%);
+    transition: all 0.3s ease;
+}
+
+.mc-gallery-item:hover .mc-gallery-caption {
+    transform: translateY(0);
+}
+
+/* ===== التذييل ===== */
+.mc-footer {
+    background-color: #2a2a2a;
+    padding: 30px 20px;
+    text-align: center;
+    border-top: 4px solid #555555;
+    margin-top: 50px;
+}
+
+.mc-footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.mc-footer-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.mc-footer-links a {
+    color: #aaaaaa;
+    margin: 0 15px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.mc-footer-links a:hover {
+    color: #55ff55;
+}
+
+.mc-footer-copyright {
+    color: #777777;
+    font-size: 14px;
+}
+
+/* ===== مودال ===== */
+.mc-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+}
+
+.mc-modal.active {
+    display: flex;
+}
+
+.mc-modal-content {
+    background-color: #2a2a2a;
+    border: 4px solid #555555;
+    width: 90%;
+    max-width: 600px;
+    position: relative;
+    animation: modalSlideDown 0.3s;
+}
+
+.mc-modal-header {
+    padding: 15px 20px;
+    background-color: #333333;
+    color: #55ff55;
+    font-size: 18px;
+    border-bottom: 3px solid #555555;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mc-modal-close {
+    font-size: 24px;
+    cursor: pointer;
+    color: #aaaaaa;
+    transition: all 0.3s ease;
+}
+
+.mc-modal-close:hover {
+    color: #ff5555;
+}
+
+.mc-modal-body {
+    padding: 20px;
+}
+
+.mc-modal-footer {
+    padding: 15px 20px;
+    background-color: #333333;
+    border-top: 3px solid #555555;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+@keyframes modalSlideDown {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* ===== التوستر (الإشعارات المؤقتة) ===== */
+.mc-toaster {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+}
+
+.mc-toast {
+    padding: 12px 15px;
+    margin-bottom: 10px;
+    background-color: #2a2a2a;
+    border-left: 4px solid #55ff55;
+    color: #ffffff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    animation: toastSlideIn 0.3s, toastFadeOut 0.3s 5s forwards;
+}
+
+.mc-toast.success {
+    border-left-color: #55ff55;
+}
+
+.mc-toast.info {
+    border-left-color: #5555ff;
+}
+
+.mc-toast.warning {
+    border-left-color: #ffff55;
+}
+
+.mc-toast.error {
+    border-left-color: #ff5555;
+}
+
+.mc-toast-close {
+    cursor: pointer;
+}
+
+@keyframes toastSlideIn {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes toastFadeOut {
+    from {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    to {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+}
+
+/* ===== المؤشرات (الدوارة) ===== */
+.mc-spinner {
+    width: 40px;
+    height: 40px;
+    border: 4px solid rgba(85, 255, 85, 0.3);
+    border-radius: 50%;
+    border-top-color: #55ff55;
+    animation: spin 1s infinite linear;
+    margin: 20px auto;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* ===== التوليميحات ===== */
+.mc-tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.mc-tooltip-text {
+    visibility: hidden;
+    width: 200px;
+    background-color: #2a2a2a;
+    color: #ffffff;
+    text-align: center;
+    padding: 8px;
+    border: 2px solid #555555;
+    position: absolute;
+    z-index: 100;
+    bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+    font-size: 14px;
+}
+
+.mc-tooltip:hover .mc-tooltip-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* ===== شرائح العرض ===== */
+.mc-slider {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+    border: 3px solid #555555;
+}
+
+.mc-slides {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.mc-slide {
+    min-width: 100%;
+    position: relative;
+}
+
+.mc-slide img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.mc-slide-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #ffffff;
+}
+
+.mc-slider-nav {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    display: flex;
+    gap: 5px;
+}
+
+.mc-slider-prev,
+.mc-slider-next {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    border: 2px solid #555555;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.mc-slider-prev:hover,
+.mc-slider-next:hover {
+    background-color: rgba(85, 255, 85, 0.3);
+    border-color: #55ff55;
+}
+
+/* ===== ترقيم الصفحات ===== */
+.mc-pagination {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.mc-page-item {
+    margin: 0 5px;
+}
+
+.mc-page-link {
+    display: block;
+    padding: 8px 15px;
+    background-color: #2a2a2a;
+    border: 2px solid #555555;
+    color: #ffffff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.mc-page-link:hover {
+    background-color: #333333;
+    border-color: #55ff55;
+    color: #55ff55;
+}
+
+.mc-page-link.active {
+    background-color: #55ff55;
+    border-color: #55ff55;
+    color: #000000;
+}
+
+/* ===== الرسوم المتحركة ===== */
+@keyframes pulse {
+    0% { text-shadow: 2px 2px 0px #005500; }
+    50% { text-shadow: 2px 2px 15px #55ff55; }
+    100% { text-shadow: 2px 2px 0px #005500; }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideUp {
+    from { transform: translateY(50px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes shine {
+    0% { left: -100%; }
+    20% { left: 100%; }
+    100% { left: 100%; }
+}
+
+/* ===== تصميم متجاوب ===== */
+@media (max-width: 992px) {
+    .container {
+        max-width: 100%;
+        padding: 15px;
+    }
+    
+    .mc-navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .mc-navbar-items {
+        margin-top: 15px;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .mc-navbar-items li {
+        margin: 5px 0;
+    }
+    
+    .mc-dropdown-content {
+        position: static;
+        box-shadow: none;
+        border-left: 3px solid #55ff55;
+        display: none;
+    }
+    
+    .mc-gallery {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+}
+
+@media (max-width: 768px) {
+    h1 { font-size: 30px; }
+    h2 { font-size: 26px; }
+    h3 { font-size: 22px; }
+    
+    .mc-card {
+        padding: 15px;
+    }
+    
+    .mc-tab-links {
+        flex-direction: column;
+    }
+    
+    .mc-tab-link {
+        border: 3px solid #555555;
+        margin-bottom: -3px;
+    }
+    
+    .mc-search-form {
+        flex-direction: column;
+    }
+    
+    .mc-search-button {
+        width: 100%;
+        margin-top: 10px;
+    }
+    
+    .mc-footer-links {
+        flex-direction: column;
+    }
+    
+    .mc-footer-links a {
+        margin: 5px 0;
+    }
+    
+    .mc-toast {
+        width: calc(100% - 40px);
+    }
+}
+
+@media (max-width: 576px) {
+    .mc-input-group {
+        flex-direction: column;
+    }
+    
+    .mc-table {
+        display: block;
+        overflow-x: auto;
+    }
+    
+    .mc-modal-content {
+        width: 95%;
+    }
+    
+    .mc-gallery {
+        grid-template-columns: 1fr;
+    }
+}
+    </style>
+</body>
+</html>
